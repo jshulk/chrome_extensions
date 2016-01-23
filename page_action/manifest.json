@@ -1,0 +1,13 @@
+{
+	"manifest_version": 2,
+	"name": "page_action",
+	"version": "0.1.0",
+	"page_action": {
+		"default_title": "This is a page action "
+	},
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	},
+	"permissions": ["declarativeContent"]
+}
