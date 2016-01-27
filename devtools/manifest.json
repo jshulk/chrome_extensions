@@ -1,5 +1,10 @@
 {
 	"manifest_version": 2,
 	"name": "devtools",
-	"version": "0.1.0"
+	"version": "0.1.0",
+	"devtools_page": "devtools.html",
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	}
 }
